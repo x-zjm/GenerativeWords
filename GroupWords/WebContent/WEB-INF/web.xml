@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<!-- 设置过滤器 -->
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>com.gw.filter.EncodingFilter</filter-class>
+	</filter>
+	<!-- 设置过滤对象 -->
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>*</url-pattern>		
+	</filter-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TermServlet</display-name>
+    <servlet-name>TermServlet</servlet-name>
+    <servlet-class>com.gw.servlet.TermServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TermServlet</servlet-name>
+    <url-pattern>/term</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,128 @@
+/*
+* @Author: ÕÅ½òÃú
+* @Date:   2018-07-26 11:18:45
+* @Last Modified by:   张津铭
+* @Last Modified time: 2018-08-01 19:47:42
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+button, input, select{border: 0; margin: 0; padding: 0;}
+.main{
+	width: 900px;
+	margin: 0 auto;
+}
+.top{
+	width: 894px;
+	margin-top: 120px;
+	border-radius: 20px;
+	border: 3px solid #0057FE;
+	overflow: hidden;
+	background-color: #0057FE;
+}
+.top-left, .top-right{
+	width: 50%;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+}
+.top-left{
+	float: left;
+}
+.top-right{
+	float: right;
+}
+.top a{
+	display: block;
+	font-size: 40px;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #0057EF;
+}
+.top a:hover{
+	color: #0057FE;
+	background-color: #FFFFFF;
+}
+.utils{
+	width: 100%;
+	min-height: 41px;
+	margin: 25px auto;
+}
+#top-left-btn{
+	width: 194px;
+	margin: 0 auto;
+}
+.term{
+	text-align: center;
+	display: block;
+	font-size: 18px;
+}
+.btn{
+	float: right;
+	padding: 10px 25px;
+	border-radius: 5px;
+	color: #FFFFFF;
+  	background-color: #0057FE;
+}
+#top-right-utils{
+	width: 295px;
+}
+.scbtn{
+	height: 41px;
+	width: 82px;
+	margin: 0 auto;
+}
+.input-text, .utils select{
+	float: left;
+	border: 1.5px solid #B8B8B8;
+	height: 38px;
+	width: 180px;
+	padding: 0 10px;
+}
+.utils select{
+	display: block;
+	height: 41px;
+	width: 70px;
+}
+.utils input:focus, .utils select:focus{
+	border: 1.5px solid #0057FE;
+}
+.term-content{
+	min-height: 110px;
+	margin: 0 auto;
+	width: 870px;
+	border-top: 1px solid #B8B8B8;
+	padding: 5px;
+	clear: both;
+}
+#fourterm{
+	border-bottom: 1px solid #B8B8BB;
+}
+.termlab{
+	float: left;
+	display: inline-block;
+}
+.termcon{
+	min-height: 89px;
+	margin-left: 85px;
+}
+.termsum{
+	width: 220px;
+	display: block;
+	float: right;
+	margin-bottom: 5px;
+}
+.termitem{
+	display: inline-block;
+	margin-right: 25px;
+}
+.content{
+	background-color: #FFFFFF;
+}
